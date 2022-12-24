@@ -53,5 +53,4 @@ themebtn.onclick = () => {
 
 //Add the button to the page
 document.body.appendChild(themebtn);
-"
 </pre>
