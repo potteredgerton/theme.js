@@ -1,5 +1,5 @@
 # Theme.js
-Theme.js is a javascript file that allows users to toggle between themes with a click of a button. It also takes into account the users preferred color scheme using media querys.
+Theme.js is a javascript library that allows users to toggle between themes with a click of a button. It also takes into account the users preferred color scheme using media querys.
 
 ## Usage
 To use theme.js all you need to do it copy the below <code>code</code> at the ending of your <code>body</code> tag. Make sure that you do not have anything on your page set to the color of white or black and that the colors are only set by the useragent stylesheet.
