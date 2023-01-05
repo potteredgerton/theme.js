@@ -55,6 +55,6 @@ themebtn.onclick = () => {
 document.body.appendChild(themebtn);
 </pre>
 
-## Liscense
+## License
 
 If you choose to use theme.js in your of your projects you will not need to credit me. However, if you modify the code and publish it as your own you will need to credit me as the original creator.
