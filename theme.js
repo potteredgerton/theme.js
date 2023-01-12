@@ -6,7 +6,7 @@ var currenttheme;
 var link = document.createElement("link");
 link.type = "text/css";
 link.setAttribute("rel", "stylesheet");
-link.href = `https://portfolio.pottere6.repl.co/theme.css`
+link.href = `https://itspotter.com/theme.css`
 document.head.appendChild(link);
 
 //Check for dark mode
@@ -28,12 +28,12 @@ theme();
 function theme() {
   if (currenttheme == "light") {
     document.body.setAttribute("theme", "dark");
-    themebtn.src = "https://portfolio.pottere6.repl.co/images/dark.svg";
+    themebtn.src = "https://itspotter.com/images/dark.svg";
     themebtn.style.filter = "invert(100%)";
     currenttheme = "dark";
   } else if (currenttheme == "dark") {
     document.body.setAttribute("theme", "light");
-    themebtn.src = "https://portfolio.pottere6.repl.co/images/light.svg";
+    themebtn.src = "https://itspotter.com/images/light.svg";
     themebtn.style.filter = "";
     currenttheme = "light";
   }
